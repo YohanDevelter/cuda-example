@@ -59,7 +59,6 @@ int main(void)
         printf("%-40s%d\n", "Device number:", i);
         printf("%-40s%s\n", "Name:", prop.name);
         printf("%-40s%s\n", "Architecture: ", getArch(prop));
-        printf("-40%s%i\n", "Core numbers:", getCoresNb(prop));
         printf("%-40s%.0f Mhz\n", "Clock rate:", (float)prop.clockRate/KB);
         printf("%-40s%d Mhz\n", "Memory clock rate:", prop.memoryClockRate/KB);
         printf("%-40s%.0f Mb\n", "Global mem:", (float)prop.totalGlobalMem/MB);
